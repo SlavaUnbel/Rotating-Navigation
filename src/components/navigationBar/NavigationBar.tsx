@@ -1,21 +1,19 @@
+import { Email, Home, Person } from '@material-ui/icons';
 import React from 'react';
 
 const NavigationBar: React.FC = () => (
   <nav>
     <ul>
       <li>
-        {/* <Home /> */}
-        <i /> Home
+        <Home /> Home
       </li>
 
       <li>
-        {/* <User /> */}
-        <i /> About
+        <Person /> About
       </li>
 
       <li>
-        {/* <Email /> */}
-        <i /> Contact
+        <Email /> Contact
       </li>
     </ul>
   </nav>

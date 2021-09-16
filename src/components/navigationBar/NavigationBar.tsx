@@ -5,17 +5,17 @@ const NavigationBar: React.FC = () => (
     <ul>
       <li>
         {/* <Home /> */}
-        <i />
+        <i /> Home
       </li>
 
       <li>
         {/* <User /> */}
-        <i />
+        <i /> About
       </li>
 
       <li>
         {/* <Email /> */}
-        <i />
+        <i /> Contact
       </li>
     </ul>
   </nav>

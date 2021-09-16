@@ -1,9 +1,13 @@
+import { Menu } from '@material-ui/icons';
 import React from 'react';
 
-const OpenButton: React.FC = () => (
-  <button id="open">
-    {/* <Menu /> */}
-    <i />
+interface Props {
+  onClick: () => void;
+}
+
+const OpenButton: React.FC<Props> = ({ onClick }) => (
+  <button id="open" onClick={onClick}>
+    <Menu />
   </button>
 );
 

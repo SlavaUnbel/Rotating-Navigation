@@ -1,9 +1,13 @@
+import { Close } from '@material-ui/icons';
 import React from 'react';
 
-const CloseButton: React.FC = () => (
-  <button id="close">
-    {/* <Close /> */}
-    <i />
+interface Props {
+  onClick: () => void;
+}
+
+const CloseButton: React.FC<Props> = ({ onClick }) => (
+  <button id="close" onClick={onClick}>
+    <Close />
   </button>
 );
 

@@ -28,8 +28,6 @@ It is a must to have this soft to be installed on your local machine:
 
 #### node.js
 
-#### @types/express (via npm or yarn)
-
 #### node-sass (via npm or yarn)
 
 Thanks for your attention :)
